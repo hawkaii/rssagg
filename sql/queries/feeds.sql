@@ -10,3 +10,5 @@ VALUES ($1,
 RETURNING *;
 
 
+-- name: GetFeed :many
+SELECT * FROM feeds;
